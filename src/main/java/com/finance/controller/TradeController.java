@@ -38,7 +38,7 @@ import net.sf.json.JSONObject;
 /**
  * 收入Controller层
  * 
- * @author 贾永贵
+ *
  *
  */
 @Controller

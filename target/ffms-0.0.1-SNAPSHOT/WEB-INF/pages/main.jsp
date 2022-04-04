@@ -30,7 +30,8 @@
 		});
 		$.post("${basePath}moneyAnalysis.do", {}, function(result) {
 			$.messager.show({
-                title:'金额提醒',
+                // title:'金额提醒',
+				title:'目标管理提醒',
                 msg:'您目前的消费金额情况如下：<br/>总收入金额：'+result.totalIncomeMoney+"元。<br/>总支出金额："+result.totalPayMoney+"元。<br/>您的余额为："+result.totalLostMoney+"元。",
                 timeout:30000,
                 showType:'show',
@@ -44,7 +45,8 @@
 		        	setMoneyTime();
 		        	if(result.totalLostMoney<2000){
 		        		$.messager.show({
-		                     title:'金额提醒',
+		                     //title:'金额提醒',
+							title:'目标管理提醒',
 		                     msg:'您的余额已不足2000元。<br/>您目前的消费金额情况如下：<br/>总收入金额：'+result.totalIncomeMoney+"元。<br/>总支出金额："+result.totalPayMoney+"元。<br/>您的余额为："+result.totalLostMoney+"元。",
 		                     timeout:20000,
 		                     showType:'show',
@@ -197,8 +199,8 @@
 	<div region="center">
 		<div class="easyui-tabs" fit="true" border="false" id="tabs">
 			<div title="首页" data-options="iconCls:'icon-home'">
-				<div align="center" style="padding-top: 100px">
-					<font color="red" size="10">欢迎使用</font>
+				<div align="center" style="padding-top: 100px; font-size: 40px; text-shadow: 0 0 2px black;">
+					<font color="white" size="10">随叫随到的私人理财专家！</font>
 				</div>
 			</div>
 		</div>

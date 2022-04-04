@@ -29,7 +29,7 @@ import net.sf.json.JSONObject;
 /**
  * 报表Controller层
  * 
- * @author 赵鹏（zhaopeng）
+ * 
  *
  */
 @Controller

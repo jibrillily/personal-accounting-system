@@ -24,7 +24,7 @@ import net.sf.json.JSONObject;
 /**
  * 数据字典Controller层
  * 
- * @author 赵鹏（zhaopeng）
+ *
  *
  */
 @Controller
