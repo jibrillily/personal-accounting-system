@@ -164,6 +164,26 @@ public class UserController {
 		return "userManage";
 	}
 
+
+	/**
+	 * 便条管理页面
+	 */
+	@RequestMapping("/dateManage.do")
+	public String dateManage(ModelMap map) {
+		List<Role> list = roleService.getRoles();
+		map.addAttribute("roles", list);
+		return "dateManage";
+	}
+
+	/**
+	 * 目标管理页面
+	 */
+	@RequestMapping("/targetManage.do")
+	public String targetManage(ModelMap map) {
+		List<Role> list = roleService.getRoles();
+		map.addAttribute("roles", list);
+		return "targetManage";
+	}
 	/**
 	 * 修改用户密码
 	 * 

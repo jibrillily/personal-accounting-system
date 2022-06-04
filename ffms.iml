@@ -82,5 +82,6 @@
     <orderEntry type="library" name="Maven: aspectj:aspectjweaver:1.5.3" level="project" />
     <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="activiti-bpmn-converter-5.13" level="project" />
   </component>
 </module>
